@@ -1,0 +1,213 @@
+{
+   "english":"Angielski",
+   "polish":"Polski",
+   "basicInfoLabel":"postawowe informacje",
+   "educationLabel":"edukacja",
+   "experienceLabel":"doświadczenie",
+   "technologiesLabel":"technologie",
+   "certificatesLabel":"certyfikaty",
+   "downloadPdfLabel":"pobierz pdf",
+   "titleLabel":"Tomasz Dąbrowski - Interaktywne CV",
+   "versionLabel":"wersja",
+   "browserWarningLabel":"Korzystaj proszę z przeglądarki kompatybilnej z HTML5 i CSS3, dzięki!",
+   "clickToDownload":{
+      "ENGLISH":"Kliknij, aby pobrać angielską wersję",
+      "POLISH":"Kliknij, aby pobrać polską wersję"
+   },
+   "nameValue":"Tomasz Dąbrowski",
+   "dateAndPlaceOfBornLabel":"Data i miejsce urodzenia",
+   "dateAndPlaceOfBornValue":"26 marzec, 1985",
+   "addressLabel":"Miejsce zamieszkania",
+   "addressValue":"Warszawa, Polska",
+   "emailLabel":"E-mail",
+   "emailValue":"tadabrowski@gmail.com",
+   "phoneNumberLabel":"Numer telefonu",
+   "phoneNumberValue":"(na życzenie)",
+   "projectLabel":"Projekt",
+   "clientLabel":"Klient",
+   "descriptionLabel":"Opis",
+   "technologiesLabel":"Technologie",
+   "roleLabel":"Role",
+   "education":[
+      {
+         "years":"2014 - 2015",
+         "img":"WEITI",
+         "description":[
+            "studia podyplomowe Zarządzanie Zasobami IT",
+            "Wydział Elektroniki i Technik Informacyjnych, PW"
+         ]
+      },
+      {
+         "years":"2010 - 2012",
+         "img":"WEITI",
+         "description":[
+            "studia magisterskie Informatyka",
+            "specjalizacja Inżynieria Systemów Informatycznych",
+            "Wydział Elektroniki i Technik Informacyjnych, PW"
+         ]
+      },
+      {
+         "years":"2004 - 2009",
+         "img":"WEITI",
+         "description":[
+            "studia inżynierskie Informatyka",
+            "Wydział Elektroniki i Technik Informacyjnych, PW"
+         ]
+      }
+   ],
+   "experience":[
+      {
+         "date":"07.2012 - 08.2015",
+         "companyName":"Tekten sp. z o.o.",
+         "projects":[
+            {
+               "project":"ALIF",
+               "client":"Netia S. A.",
+               "description":"Celem projektu była migracja poprzedniego rozwiązania (Lotus Notes) to nowego systemu Alif opartego o portal Liferay. Zadaniem aplikacji była optymalizacja procesów udzielania dostępów.",
+               "technologies":"Liferay, Vaadin 6/7, Spring, Activiti, Groovy, Freemarker, Maven",
+               "role":"programista front- i back-endu, team-leader"
+            },
+            {
+               "project":"Resource Inventory",
+               "client":"Netia S. A.",
+               "description":"Zadaniem projektu była implementacja nowego scentralizowanego rejestru urządzeń konsumenckich oraz migracja danych z poprzedniego źródła - systemu ERP. Podczas procesu odbyła się analiza wymagań, analiza systemowa i developerska, integracja z systemem ERP, testy oraz migracja danych i start systemu produkcyjnego. Zaimplementowane rozwiązanie ułatwiło dostęp do danych urządzeń szerszemu gronu pracowników korporacji, a jednocześnie zminimalizowało liczbę kosztownych licencji dotychczasowego systemu ERP. Nowa aplikacja pozwalała również na dynamiczne wprowadzenia zmian, w tym nowych klas urządzeń, a także utrzymanie spójnych danych dzięki zaawansowanym regułom walidacyjnym.",
+               "technologies":"MQ, Camel, Mockito, Freemarker, Maven",
+               "role":"programista back-endu"
+            },
+            {
+               "project":"Rozliczenia SOR Relay",
+               "client":"Netia S. A.",
+               "description":"Głównym zadaniem aplikacji było wsparcie działu finansowego w procesowaniu rozliczeń pomiędzy dwoma operatorami świadczącymi usługi w technologii BSA (dostęp BitStream). Na potrzeby projektu przeprowadzono analizę biznesową i systemową. Zaimplementowane rozwiązanie opierało się na integracji z bazą danych systemu SOR Relay oraz bazie obsługującej usługi jeszcze niedostępne w tym systemie.",
+               "technologies":"Spring, AspectJ, Hibernate, PL/SQL, H2, SmartGWT, Mockito, Maven",
+               "role":"główny programista back-endu"
+            },
+            {
+               "project":"SOR Relay",
+               "client":"Netia S. A.",
+               "description":"Celem projektu było dostarczenie spójnego i jednolitego systemu zastępującego wiele dotychczasowych kanałów komunikacyjnych w formacie regulowanym ustawowo. Aplikacja stanowiła źródło danych oraz kanał ich wymiany pomiędzy zależnymi operatorami telekomunikacyjnymi. Projekt obejmował implementację interfejsu użytkownika, silnika zleceń i ich priorytetyzacji, silnika reguł biznesowych, definicję procesów biznesowych, a także integrację z osobnymi operatorem telekomunikacyjnym.",
+               "technologies":"MQ, Spring, AspectJ, Hibernate, PL/SQL, Drools, SmartGWT, BPM, Mockito, Maven",
+               "role":"główny programista back-endu"
+            }
+         ]
+      },
+      {
+         "date":"09.2011 - 05.2012",
+         "companyName":"PKO BP S.A. (outsourcing)",
+         "projects":[
+            {
+               "project":"framework obiegu wniosków",
+               "client":"wewnętrzny",
+               "description":"Główną ideą stojącą za frameworkiem było narzędzie umożliwiające tworzenie i rozwijanie zaawansowanego systemu CRM przy wykorzystaniu niewielkich zasobów ludzkich. Projekt obejmował również tworzenie interfejsu graficznego oraz definicję procesów biznesowych.",
+               "technologies":"jBPM, Groovy",
+               "role":"konfiguracja frameworku, skryptowanie GUI, implemetacja procesów biznesowych"
+            }
+         ]
+      },
+      {
+         "date":"02.2011 - 05.2012",
+         "companyName":"Britenet sp. z o.o.",
+         "projects":[
+            {
+               "project":"MATM",
+               "client":"First Data Polska S. A.",
+               "description":"Projekt był częścią większego systemu monitorowania pracy bankomatów. Obejmował wastwę interfejsu graficznego oraz średniego back-endu.",
+               "technologies":"GWT, Spring, Hibernate, Ant, Maven",
+               "role":"główny programista front-endu"
+            }
+         ]
+      }
+   ],
+   "technologies":[
+      {
+         "img":"java",
+         "description":"Java 6/7/8"
+      },
+      {
+         "img":"scala",
+         "description":"Scala"
+      },
+      {
+         "img":"groovy",
+         "description":"Groovy"
+      },
+      {
+         "img":"spring",
+         "description":"Spring Framework"
+      },
+      {
+         "description":"AspectJ"
+      },
+      {
+         "img":"hibernate",
+         "description":"Hibernate 4"
+      },
+      {
+         "img":"vaadin",
+         "description":"Vaadin 6/7"
+      },
+      {
+         "img":"gwt",
+         "description":"Google Web Toolkit"
+      },
+      {
+         "img":"activiti",
+         "description":"Activiti"
+      },
+      {
+         "img":"jbpm",
+         "description":"jBPM"
+      },
+      {
+         "img":"camel",
+         "description":"Camel"
+      },
+      {
+         "img":"mockito",
+         "description":"Mockito"
+      },
+      {
+         "img":"freemarker",
+         "description":"Freemarker"
+      },
+      {
+         "img":"liferay",
+         "description":"Liferay"
+      },
+      {
+         "img":"drools",
+         "description":"Drools"
+      },
+      {
+         "img":"oracle",
+         "description":"Oracle DB"
+      },
+      {
+         "img":"oracle",
+         "description":"PL/SQL"
+      },
+      {
+         "description":"H2 DB"
+      },
+      {
+         "img":"maven",
+         "description":"Maven"
+      }
+   ],
+   "certificates":[
+      {
+         "year":"2015",
+         "name":"ITIL Foundation",
+         "img":"itil"
+      },
+      {
+         "year":"2015",
+         "name":"Prince2 Foundation",
+         "img":"prince2"
+      },
+      {
+         "year":"2011",
+         "name":"Oracle's Certified Professional Java SE Programmer",
+         "img":"oracle"
+      }
+   ]
+}

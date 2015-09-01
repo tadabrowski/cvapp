@@ -1,0 +1,87 @@
+@import url('http://fonts.googleapis.com/css?family=PT+Sans');
+
+.html-container {
+	
+}
+
+.html-container .photo {
+	max-width: 150px;
+	max-height: 200px;
+}
+
+.html-container .logo-medium {
+	max-width: 100px;
+	max-height: 100px;
+}
+
+.html-container img {
+	display: block;
+	width: auto;
+	height: auto;
+}
+
+.html-container table {
+	margin: 20px;
+	border-collapse: collapse;
+}
+
+.html-container td {
+	padding: 2px 10px;
+	font-family: PT Sans;
+}
+
+.html-container .experience-table td:first-of-type {
+	width: 200px;
+}
+
+.html-container .experience-first-level > td {
+	padding: 10px 0px;
+	font-size: larger;
+}
+
+.html-container .experience-second-level td:first-of-type {
+	padding-left: 40px;
+}
+
+.html-container .experience-second-level-first > td {
+	padding: 10px;
+	font-weight: 700;
+	border-bottom: 1px solid black;
+}
+
+.html-container .experience-description  {
+	font-style: italic;
+}
+
+.html-container .technologies-fake-logo {
+	font-size: x-large;
+	font-weight: 900;
+	margin: 0px;
+	text-align: center;
+}
+
+.html-container .technologies-description {	
+	height: 40px;
+	text-align: center;
+}
+
+.html-container .technologies-image {		
+}
+
+.html-container .technologies-image > img {	
+	padding: 20% 0%;
+	max-height: 40px;
+	margin: auto;
+	display: block;
+}
+
+.html-container .download-pdf {
+	margin: 20px;
+}
+
+.html-container .download-pdf a {
+	font-weight: 700;
+	text-decoration: none;
+	color: black;
+	font-family: PT Sans;
+}
