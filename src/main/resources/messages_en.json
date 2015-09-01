@@ -1,0 +1,216 @@
+{
+   "english":"English",
+   "polish":"Polish",
+   "basicInfoLabel":"basic info",
+   "educationLabel":"education",
+   "experienceLabel":"experience",
+   "technologiesLabel":"technologies",
+   "certificatesLabel":"certificates",
+   "downloadPdfLabel":"download pdf",
+   "titleLabel":"Tomasz Dabrowski - Interactive CV",
+   "versionLabel":"version",
+   "browserWarningLabel":"Please use HTML5 and CSS3 compatible browser, thanks!",
+   "clickToDownload":{
+      "ENGLISH":"Click to download an english version ",
+      "POLISH":"Click to download a polish version "
+   },
+   "nameValue":"Tomasz Dabrowski",
+   "dateAndPlaceOfBornLabel":"Date and place of birth",
+   "dateAndPlaceOfBornValue":"26th of march, 1985",
+   "addressLabel":"Place of residence",
+   "addressValue":"Warsaw, Poland",
+   "emailLabel":"E-mail",
+   "emailValue":"tadabrowski@gmail.com",
+   "phoneNumberLabel":"Phone number",
+   "phoneNumberValue":"(on request)",
+   "projectLabel":"Project",
+   "clientLabel":"Client",
+   "descriptionLabel":"Description",
+   "technologiesLabel":"Technologies",
+   "roleLabel":"Role",
+   "education":[
+      {
+         "years":"2014 - 2015",
+         "img":"WEITI",
+         "description":[
+            "IT Resource Management (postgraduate course)",
+            "The Faculty of Electronics and Information Technology",
+            "Warsaw University of Technology"
+         ]
+      },
+      {
+         "years":"2010 - 2012",
+         "img":"WEITI",
+         "description":[
+            "Information Technology (master's degree)",
+            "IT System Engineering specialization",
+            "The Faculty of Electronics and Information Technology",
+            "Warsaw University of Technology"
+         ]
+      },
+      {
+         "years":"2004 - 2009",
+         "img":"WEITI",
+         "description":[
+            "Information Technology (engineer's degree)",
+            "The Faculty of Electronics and Information Technology",
+            "Warsaw University of Technology"
+         ]
+      }
+   ],
+   "experience":[
+      {
+         "date":"07.2012 - 08.2015",
+         "companyName":"Tekten sp. z o.o.",
+         "projects":[
+            {
+               "project":"ALIF",
+               "client":"Netia S. A.",
+               "description":"The goal of the project was to migrate a previous solution (Lotus Notes) to a new Liferay based system called Alif. It involved optimizing current processes of access levels assignation.",
+               "technologies":"Liferay, Vaadin 6/7, Spring, Activiti, Groovy, Freemarker, Maven",
+               "role":"front- and back-end developer, team-leader"
+            },
+            {
+               "project":"Resource Inventory",
+               "client":"Netia S. A.",
+               "description":"The project goal was to implement a new, centralized customer device registry and migration of their data from their previous storage - the ERP class system. During the project requirements analysis, system analysis, develpment, integration with the ERP system, tests, data migration and production launch were performed. Implemented solution allowed easier access to device data for a wider range of company's employees simultaneously reducing the amount of expensive access licences to current ERP system. New solution also allowed for dynamic configuration changes to accomodane new device classes introduced to the registry and maintenance of data quality thanks to advanced validation mechanisms.",
+               "technologies":"MQ, Camel, Mockito, Freemarker, Maven",
+               "role":"back-end developer"
+            },
+            {
+               "project":"SOR Relay Settlement",
+               "client":"Netia S. A.",
+               "description":"Our goal was to create an application supporting the finantial department in processing settlements between operators for providing services in BSA (BitStream Access) technology. We provided business and system analisys of a new solution we implemented and integrated with SOR Relay and a database of the old application that supported services not yet migrated to SOR Relay.",
+               "technologies":"Spring, AspectJ, Hibernate, PL/SQL, H2, SmartGWT, Mockito, Maven",
+               "role":"main back-end developer"
+            },
+            {
+               "project":"SOR Relay",
+               "client":"Netia S. A.",
+               "description":"The project goal was to introduce a tool enabling replacement of many communication channels with one, coherent communication format defined by main telco operator. This tool was to provide a necessary information and data exchange between the main and alternative telco operators in the inter-operator regulated services modification processes. Project scope included implementing the user interface, order queuing and prioritising engine, business rule engine, defining business process flows and integrating with the main telco operator.",
+               "technologies":"MQ, Spring, AspectJ, Hibernate, PL/SQL, Drools, SmartGWT, BPM, Mockito, Maven",
+               "role":"main back-end developer"
+            }
+         ]
+      },
+      {
+         "date":"09.2011 - 05.2012",
+         "companyName":"PKO BP S.A. (outsourcing)",
+         "projects":[
+            {
+               "project":"custom CRM with a document flow",
+               "client":"internal",
+               "description":"The main idea behing the framework was to be able to create and extend an advanced finansial CRM with limited human resources. The project involved Groovy scripting (GUI) and jBPM process designing.",
+               "technologies":"jBPM, Groovy",
+               "role":"framework operator/developer"
+            }
+         ]
+      },
+      {
+         "date":"02.2011 - 05.2012",
+         "companyName":"Britenet sp. z o.o.",
+         "projects":[
+            {
+               "project":"MATM",
+               "client":"First Data Polska S. A.",
+               "description":"The project was a part of a wide ATM monitoring system. It covered frontend and mid-backend modules.",
+               "technologies":"GWT, Spring, Hibernate, Ant, Maven",
+               "role":"main front-end developer"
+            }
+         ]
+      }
+   ],
+   "technologies":[
+      {
+         "img":"java",
+         "description":"Java 6/7/8"
+      },
+      {
+         "img":"scala",
+         "description":"Scala"
+      },
+      {
+         "img":"groovy",
+         "description":"Groovy"
+      },
+      {
+         "img":"spring",
+         "description":"Spring Framework"
+      },
+      {
+         "description":"AspectJ"
+      },
+      {
+         "img":"hibernate",
+         "description":"Hibernate 4"
+      },
+      {
+         "img":"vaadin",
+         "description":"Vaadin 6/7"
+      },
+      {
+         "img":"gwt",
+         "description":"Google Web Toolkit"
+      },
+      {
+         "img":"activiti",
+         "description":"Activiti"
+      },
+      {
+         "img":"jbpm",
+         "description":"jBPM"
+      },
+      {
+         "img":"camel",
+         "description":"Camel"
+      },
+      {
+         "img":"mockito",
+         "description":"Mockito"
+      },
+      {
+         "img":"freemarker",
+         "description":"Freemarker"
+      },
+      {
+         "img":"liferay",
+         "description":"Liferay"
+      },
+      {
+         "img":"drools",
+         "description":"Drools"
+      },
+      {
+         "img":"oracle",
+         "description":"Oracle DB"
+      },
+      {
+         "img":"oracle",
+         "description":"PL/SQL"
+      },
+      {
+         "description":"H2 DB"
+      },
+      {
+         "img":"maven",
+         "description":"Maven"
+      }
+   ],
+   "certificates":[
+      {
+         "year":"2015",
+         "name":"ITIL Foundation",
+         "img":"itil"
+      },
+      {
+         "year":"2015",
+         "name":"Prince2 Foundation",
+         "img":"prince2"
+      },
+      {
+         "year":"2011",
+         "name":"Oracle's Certified Professional Java SE Programmer",
+         "img":"oracle"
+      }
+   ]
+}

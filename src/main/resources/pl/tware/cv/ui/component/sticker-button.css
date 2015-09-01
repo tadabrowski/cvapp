@@ -1,0 +1,61 @@
+.sticker-button img {
+	width: 80%;
+	height: 80%;
+	margin: 10%;
+}
+
+.valo .v-button {
+	outline: none;
+	background: none;
+	width: 100%;
+	height: 100%;
+	border: none;	
+}
+
+.v-scrollable {
+	overflow: inherit;
+}
+
+.v-panel {
+	background-color: white;
+	overflow: inherit !important;
+	margin: 20px;
+}
+
+.v-panel-content {
+	width: 220px;
+	height: 100px;
+	background: #FFF;
+	position: absolute;;
+}
+
+.v-panel-content:before, .v-panel-content:after {
+	z-index: -1;
+	position: absolute;
+	content: "";
+	bottom: 30px;
+	width: 50%;
+	top: 70px;
+	max-width: 300px;
+	background: #777;
+	-webkit-box-shadow: 0 35px 20px #777;
+	-moz-box-shadow: 0 35px 20px #777;
+	box-shadow: 0 35px 20px #777;
+	-webkit-transform: rotate(-5deg);
+	-moz-transform: rotate(-5deg);
+	-o-transform: rotate(-5deg);
+	-ms-transform: rotate(-5deg);
+	transform: rotate(-5deg);
+	width: 50%;
+	top: 70px;
+}
+
+.v-panel-content:after {
+	-webkit-transform: rotate(5deg);
+	-moz-transform: rotate(5deg);
+	-o-transform: rotate(5deg);
+	-ms-transform: rotate(5deg);
+	transform: rotate(5deg);
+	right: 0px;
+	left: auto;
+}

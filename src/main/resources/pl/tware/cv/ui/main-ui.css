@@ -1,0 +1,40 @@
+@import url('http://fonts.googleapis.com/css?family=PT+Sans');
+
+.popupContent {
+	font-family: PT Sans;
+}
+
+.v-ui {
+	z-index: 0;
+}
+
+.v-window {
+	max-height: 600px;
+}
+
+.v-window-header {
+	background: white;
+	font-family: PT Sans;
+}
+
+.v-window .v-scrollable {
+	max-height: 600px;
+	max-width: 1000px;
+	overflow: auto;
+}
+
+.quote-image {
+	position: fixed;
+	right: 200px;
+	bottom: 200px;
+	max-width: 300px;
+	max-height: 300px;
+	width: auto;
+	height: auto;
+	z-index: 1;
+}
+
+.title-image {
+	position: fixed;
+	margin: auto;
+}

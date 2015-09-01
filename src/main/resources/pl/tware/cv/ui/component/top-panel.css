@@ -1,0 +1,40 @@
+@import url('http://fonts.googleapis.com/css?family=PT+Sans');
+
+.top-panel img, .gwt-MenuItem img {
+	width: 20px;
+	height: 10px;
+}
+
+.top-panel .v-filterselect-input {
+	padding-left: 60px;
+}
+
+.top-panel {
+	z-index: 1;
+    position: relative;
+    background: black;
+}
+
+.top-panel .top-title {
+	font-family: PT Sans;
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 300px;
+	color: white;
+}
+
+.top-panel .top-version-label {
+	font-family: PT Sans;
+	margin-left: 10px;
+	margin-top: 10px;
+	opacity: 0.3;
+	color: white;	
+}
+
+.top-panel .top-version-value {
+	font-family: PT Sans;
+	margin-left: 10px;
+	margin-top: 10px;
+	opacity: 0.3;
+	color: white;
+}
