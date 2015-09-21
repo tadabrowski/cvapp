@@ -5,13 +5,18 @@
 }
 
 .html-container .photo {
-	max-width: 150px;
-	max-height: 200px;
+	max-width: 180px;
+	max-height: 220px;
 }
 
 .html-container .logo-medium {
 	max-width: 100px;
 	max-height: 100px;
+}
+
+.html-container .logo-small {
+	max-width: 50px;
+	max-height: 50px;
 }
 
 .html-container img {

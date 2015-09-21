@@ -23,10 +23,21 @@
 	overflow: auto;
 }
 
+.logo-image {
+	position: fixed;
+	left: 50px;
+	bottom: 50px;
+	max-width: 300px;
+	max-height: 300px;
+	width: auto;
+	height: auto;
+	z-index: 1;
+}
+
 .quote-image {
 	position: fixed;
-	right: 200px;
-	bottom: 200px;
+	right: 50px;
+	bottom: 50px;
 	max-width: 300px;
 	max-height: 300px;
 	width: auto;

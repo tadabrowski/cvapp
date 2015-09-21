@@ -9,6 +9,11 @@ public enum ImageName implements HasImage {
 	CERTIFICATES(true), //
 	BASIC_INFO(true), //
 	DOWNLOAD_PDF(true),
+	
+	AUTHOR,
+	LOGO,
+	GITHUB,
+	LINKEDIN,
 
 	ENGLISH_FLAG, //
 	POLISH_FLAG, //

@@ -11,8 +11,13 @@
 
 .top-panel {
 	z-index: 1;
-    position: relative;
-    background: black;
+	position: relative;
+	background: black;
+}
+
+.top-panel .top-logo {
+	margin-left: 10px;
+	margin-top: 10px;
 }
 
 .top-panel .top-title {
@@ -28,7 +33,7 @@
 	margin-left: 10px;
 	margin-top: 10px;
 	opacity: 0.3;
-	color: white;	
+	color: white;
 }
 
 .top-panel .top-version-value {

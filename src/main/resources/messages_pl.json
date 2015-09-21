@@ -16,13 +16,23 @@
    },
    "nameValue":"Tomasz Dąbrowski",
    "dateAndPlaceOfBornLabel":"Data i miejsce urodzenia",
-   "dateAndPlaceOfBornValue":"26 marzec, 1985",
+   "dateAndPlaceOfBornValue":"26 marzec, 1985, Warszawa, Polska",
    "addressLabel":"Miejsce zamieszkania",
    "addressValue":"Warszawa, Polska",
    "emailLabel":"E-mail",
-   "emailValue":"tadabrowski@gmail.com",
+   "emailValue":"tware.tomasz.dabrowski@gmail.com",
    "phoneNumberLabel":"Numer telefonu",
    "phoneNumberValue":"(na życzenie)",
+   "services":[
+   		{
+   			"img":"LINKEDIN",
+   			"url":"https://www.linkedin.com/profile/view?id=AAMAABarkl8B6WfW9h3gNRNYQZ2PYgrMcNADcdg"
+   		},{
+   			"img":"GITHUB",
+   			"url":"https://github.com/tadabrowski"
+   		}
+   
+   ],
    "projectLabel":"Projekt",
    "clientLabel":"Klient",
    "descriptionLabel":"Opis",

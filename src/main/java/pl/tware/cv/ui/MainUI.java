@@ -100,9 +100,17 @@ public class MainUI extends UI {
 
 		TopPanel topPanel = buildTopPanel();
 		DashboardPanel dashboardPanel = buildDashboardPanel();
+		Image logoImage = buildLogoImage();
 		Image quoteImage = buildQuoteImage();
 
-		setContent(new VerticalLayout(topPanel, dashboardPanel, quoteImage));
+		setContent(new VerticalLayout(topPanel, dashboardPanel, logoImage, quoteImage));
+	}
+
+	private Image buildLogoImage() {
+		Image quoteImage = new Image();
+		quoteImage.setSource(ImageResourceUtils.getImage(ImageName.LOGO));
+		quoteImage.addStyleName("logo-image");
+		return quoteImage;
 	}
 
 	private Image buildQuoteImage() {

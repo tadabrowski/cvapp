@@ -16,13 +16,23 @@
    },
    "nameValue":"Tomasz Dabrowski",
    "dateAndPlaceOfBornLabel":"Date and place of birth",
-   "dateAndPlaceOfBornValue":"26th of march, 1985",
+   "dateAndPlaceOfBornValue":"26th of march, 1985, Warsaw, Poland",
    "addressLabel":"Place of residence",
    "addressValue":"Warsaw, Poland",
    "emailLabel":"E-mail",
-   "emailValue":"tadabrowski@gmail.com",
+   "emailValue":"tware.tomasz.dabrowski@gmail.com",
    "phoneNumberLabel":"Phone number",
    "phoneNumberValue":"(on request)",
+   "services":[
+   		{
+   			"img":"LINKEDIN",
+   			"url":"https://www.linkedin.com/profile/view?id=AAMAABarkl8B6WfW9h3gNRNYQZ2PYgrMcNADcdg"
+   		},{
+   			"img":"GITHUB",
+   			"url":"https://github.com/tadabrowski"
+   		}
+   
+   ],
    "projectLabel":"Project",
    "clientLabel":"Client",
    "descriptionLabel":"Description",
